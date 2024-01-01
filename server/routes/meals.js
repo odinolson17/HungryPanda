@@ -6,4 +6,8 @@ router.post('/mealAdder', mealsController.mealAdder, (req, res) => {
   res.sendStatus(200)//.json(res.locals.data);
 });
 
+router.get('/mealDisplayer', mealsController.mealDisplayer, (req, res) => {
+  res.json(res.locals.data);
+});
+
 module.exports = router;

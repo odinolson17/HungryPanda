@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from "react-redux";
 
+import MealDisplayer from './components/MealDisplayer.jsx';
 import MealAdder from './components/MealAdder.jsx';
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
 
   return(
     <>
+      <MealDisplayer />
       <MealAdder />
     </>
   );
