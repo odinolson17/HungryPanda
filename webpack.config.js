@@ -32,6 +32,14 @@ module.exports = {
         ]
       },
       {
+        test: /\.css$/i,
+        use: [
+          'style-loader',
+          'css-loader',
+          'sass-loader',
+        ]
+      },
+      {
         test: /\.(gif|png|jpe?g|svg|xml|mp3)$/i,
         use: [
           {
