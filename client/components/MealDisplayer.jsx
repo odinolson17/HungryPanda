@@ -16,7 +16,7 @@ const MealDisplayer = () => {
 
   return (
     <>
-      <h1>Display here the meals</h1>
+      <h1>Display here the meals!</h1>
     </>
   );
 };
