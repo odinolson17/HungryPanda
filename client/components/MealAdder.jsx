@@ -60,7 +60,10 @@ const MealAdder = () => {
                 <input type='submit'/>
               </form>
               <div>
-                <button onClick={() => close()}>
+                <button onClick={() => {
+                  close();
+                  location.reload();
+                }}>
                   X
                 </button>
               </div>

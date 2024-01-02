@@ -4,3 +4,27 @@
   left: 50%;
   width: 100%;
 }
+
+.outerDiv {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.outerTopDiv {
+  margin: 20px;
+  padding-top: 20px;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.foodsOnScreen {
+  border: 2px solid blue;
+  width: 40rem;
+  height: 20rem;
+  margin: 10px;
+  color: blue;
+  font-size: 3em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}

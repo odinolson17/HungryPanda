@@ -11,8 +11,17 @@ const App = () => {
 
   return(
     <>
+      <p>Logo Here</p>
       <MealDisplayer />
       <MealAdder />
+      <br /><br />
+      <br /><br />
+      <p>
+        Add recomendation here?
+      </p>
+      <p>
+        Add water counter here
+      </p>
     </>
   );
 
